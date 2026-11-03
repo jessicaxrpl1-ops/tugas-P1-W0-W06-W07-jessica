@@ -262,3 +262,63 @@ footer a {
     font-size: 2.75rem;
   }
 }
+/* 8. Kalkulator */
+label {
+  font-weight: 600;
+}
+
+input, select, textarea {
+  width: 100%;
+  max-width: 22rem;
+  padding: 0.6rem;
+  margin-top: 0.25rem;
+  border: 1px solid #CCCCCC;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #E63946;
+  color: #FFFFFF;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+/* ===== CSS Tombol Toggle ===== */
+.btn-tema {
+  background: transparent;
+  border: 1px solid #38bdf8;
+  color: #38bdf8;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.btn-tema:hover {
+  background: #1d3557;
+  color: #ffffff;
+}
+/* ===== CSS Light Mode (State) ===== */
+/* Ketika body memiliki class .light-mode, timpa warna aslinya */
+body.light-mode {
+  background-color: #ffffff;
+  color: #a8abb3;
+}
+body.light-mode .profile-card {
+  background-color: #ffffff;
+  border-color: #90949a;
+  box-shadow: 0 10px 25px #2f537a;
+}
+body.light-mode .student-name {
+  color: #126293;
+}
+body.light-mode .card-aside {
+  border-color: #cbd5e1;
+}
