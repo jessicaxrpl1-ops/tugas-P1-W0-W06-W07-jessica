@@ -17,4 +17,4 @@ Website ini tampil rapi di ponsel, tablet, dan laptop.
 ## Tautan
 - Website: menyusul setelah *deploy* ke Vercel
 - Dibuat oleh: Jessica Amelia Sachi, SMKS BRANTAS KARANGKATES
-website: tugas-industri-minggu-5-33ngfw2uj-jessica-8bec.vercel.app
+- website: tugas-industri-minggu-5-33ngfw2uj-jessica-8bec.vercel.app
