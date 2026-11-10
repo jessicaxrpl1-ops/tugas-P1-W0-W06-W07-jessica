@@ -10,16 +10,17 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;700&display=swap"
     rel="stylesheet">
+    <script src="js/kalkulator.js" defer></script>
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/latihan.js" defer></script>
+  <script src="js/tema.js" defer></script>
   <script src="js/main.js" defer></script>
-  <script src="js/kalkulator.js" defer></script>
 </head>
 
 <body>
   <header>
-           <button id="btnToggleTema" class="btn-tema" type="button">☀ Ganti Mode</button>
-      <script src="js/tema.js" defer></script>
     <div class="container navbar">
+        <button type="button" id="tombol-tema" class="tombol tema">Mode Gelap</button>
       <h1>Jessica Amelia Sachi</h1>
       <nav class="menu-laptop">
         <ul>
@@ -82,13 +83,15 @@
         </section>
 
         <section class="kartu">
-          <h2>Keahlian</h2>
-          <ul>
-            <li>HTML dasar (sedang dipelajari)</li>
-            <li>Mengetik cepat (sedang belajar)</li>
-            <li>Desain poster dengan Canva</li>
-            <li>Mendesain dengan Figma</li>
+        <h2>Keahlian</h2>
+        <ul>
+          <li>HTML (Menengah)</li>
+          <li>CSS (Menengah)</li>
+          <li>Git dan GitHub (Dasar)</li>
+          <li>Desain poster dengan Canva (Mahir)</li>
+          <li>JavaScript (Dasar)</li>
           </ul>
+          <p id="jumlah-skill">Ada 5 keahlian yang sedang saya kembangkan.</p>
         </section>
       </div>
 

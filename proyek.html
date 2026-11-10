@@ -1,20 +1,37 @@
+
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Jessica Amelia Sachi | Proyek</title>
+
   <link rel="icon" href="img/foto-profil.png">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="css/style.css">
-  <script src="js/kalkulator.js" defer></script>
+
+  <script src="js/main.js" defer></script>
 </head>
+
 <body>
+
+  <!-- HEADER -->
   <header>
     <div class="container navbar">
+
+      <button type="button" id="tombol-tema" class="tombol tema">
+        Mode Gelap
+      </button>
+
       <h1>Jessica Amelia Sachi</h1>
+
       <nav class="menu-laptop">
         <ul>
           <li><a href="index.html">Beranda</a></li>
@@ -23,9 +40,11 @@
           <li><a href="kalkulator.html">Kalkulator</a></li>
         </ul>
       </nav>
-      <!-- Tantangan: menu ponsel yang bisa dibuka-tutup -->
+
+      <!-- MENU PONSEL -->
       <details class="menu-ponsel">
         <summary>Menu</summary>
+
         <nav>
           <ul>
             <li><a href="index.html">Beranda</a></li>
@@ -35,56 +54,117 @@
           </ul>
         </nav>
       </details>
+
     </div>
   </header>
 
+
+  <!-- MAIN -->
   <main>
     <div class="container">
+
+      <!-- BAGIAN PROYEK -->
       <section>
+
         <h2>Proyek Saya</h2>
-        <p>Kumpulan hasil belajar saya di Kelas Industri UBIG.</p>
 
-        <div class="daftar-kartu">
-          <article class="kartu">
-            <h3>Halaman Profil Pertama</h3>
-            <img src="img/proyek-profil.png" alt="Tangkapan layar halaman profil Jessica Amelia Sachi" width="280">
-            <p>Halaman web pertama saya, berisi perkenalan, foto, hobi, cita-cita, keahlian, dan kontak. Dibuat dengan HTML dasar di Minggu 01.</p>
-          </article>
+        <p>
+          Kumpulan hasil belajar saya di Kelas Industri UBIG.
+        </p>
 
-          <article class="kartu">
-            <h3>Form Kontak</h3>
-            <img src="img/proyek-kontak.png" alt="Tangkapan layar form kontak berisi nama, email, nomor HP, keperluan, dan pesan" width="280">
-            <p>Form untuk menghubungi saya. Setiap isian memiliki label dan wajib diisi, sehingga browser menolak form yang masih kosong.</p>
-          </article>
+        <!-- FILTER -->
+        <div class="filter">
 
-          <article class="kartu">
-            <h3>Tabel Jadwal Belajar</h3>
-            <img src="img/proyek-jadwal.png" alt="Tangkapan layar tabel jadwal belajar mandiri" width="280">
-            <p>Tabel berisi jadwal belajar mandiri saya setiap minggu, disusun dengan thead dan tbody.</p>
-          </article>
+          <button type="button" class="tombol-filter" id="filter-semua">
+            Semua
+          </button>
+
+          <button type="button" class="tombol-filter" id="filter-css">
+            CSS
+          </button>
+
+          <button type="button" class="tombol-filter" id="filter-javascript">
+            JavaScript
+          </button>
+
         </div>
+
+        <!-- JUMLAH PROYEK -->
+        <p id="jumlah-proyek"></p>
+
+        <!-- TEMPAT KARTU PROYEK DARI JAVASCRIPT -->
+        <div class="daftar-kartu" id="daftar-proyek"></div>
+
+        <p>
+          Proyek di halaman ini dibuat dengan HTML, CSS, dan JavaScript.
+          Pilih tombol kategori di atas untuk melihat proyek per bahasa.
+        </p>
+
       </section>
 
-      <!-- FAQ dengan details dan summary -->
+
+      <!-- FAQ -->
       <section class="kartu">
+
         <h2>Pertanyaan yang Sering Diajukan</h2>
+
         <details>
-          <summary>Bahasa apa yang dipakai untuk membuat proyek ini?</summary>
-          <p>Semua proyek di halaman ini dibuat dengan HTML. Tampilannya akan saya rapikan dengan CSS mulai Minggu 03.</p>
+          <summary>
+            Bahasa apa yang dipakai untuk membuat proyek ini?
+          </summary>
+
+          <p>
+            Semua proyek di halaman ini dibuat dengan HTML.
+            Tampilannya akan saya rapikan dengan CSS mulai Minggu 03.
+          </p>
         </details>
+
         <details>
-          <summary>Apakah saya menerima pesanan pembuatan website?</summary>
-          <p>Belum, saya masih belajar. Namun kamu tetap boleh menghubungi saya melalui halaman Kontak.</p>
+          <summary>
+            Apakah saya menerima pesanan pembuatan website?
+          </summary>
+
+          <p>
+            Belum, saya masih belajar.
+            Namun kamu tetap boleh menghubungi saya melalui halaman Kontak.
+          </p>
         </details>
+
       </section>
+
     </div>
   </main>
 
+
+  <!-- FOOTER -->
   <footer>
-    <p>Kontak: <a href="mailto:jessicaxrpl1@gmail.com">jessicaxrpl1@gmail.com</a> |
-      <a href="https://github.com/jessicaxrpl1-ops" target="_blank">GitHub</a> |
-      <a href="https://www.youtube.com/@jeasha_4rdv" target="_blank">YouTube</a></p>
-    <p>&copy; 2026 Jessica Amelia Sachi. Dibuat di Kelas Industri UBIG.</p>
+
+    <p>F
+      Kontak:
+      <a href="mailto:jessicaxrpl1@gmail.com">
+        jessicaxrpl1@gmail.com
+      </a> |
+
+      <a href="https://github.com/jessicaxrpl1-ops" target="_blank">
+        GitHub
+      </a> |
+
+      <a href="https://www.youtube.com/@jeasha_4rdv" target="_blank">
+        YouTube
+      </a>
+    </p>
+
+    <p>
+      &copy; 2026 Jessica Amelia Sachi.
+      Dibuat di Kelas Industri UBIG.
+    </p>
+
   </footer>
+
+
+  <!-- ELEMEN UNTUK DATA KEAHLIAN -->
+  <ul id="daftar-skill" hidden></ul>
+  <p id="jumlah-skill" hidden></p>
+
 </body>
 </html>
